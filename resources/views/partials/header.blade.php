@@ -19,7 +19,10 @@
 @endphp
 
 <header>
-    <nav>
+    <div>
+        QUESTO È IL MIO HEADER 
+    </div>
+    <!-- <nav>
         <ul>
             @foreach ($links as $link)
                 <li>
@@ -35,5 +38,5 @@
                 </li>
             @endforeach
         </ul>
-    </nav>
+    </nav> -->
 </header>
