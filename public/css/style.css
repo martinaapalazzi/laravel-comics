@@ -14,7 +14,7 @@ img {
 }
 
 .mycard {
-    width: calc((100% / 4 ) - 12px);
+    width: calc((100% / 6 ) - 10px);
 }
 
 .img-container {
