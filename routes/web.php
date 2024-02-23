@@ -14,7 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('subpages.home');
+    $comics = config('comics');
+    return view('subpages.home', [
+        'comics' => $comics,
+    ]);
 });
 
 Route::get('/chi-siamo', function () {
