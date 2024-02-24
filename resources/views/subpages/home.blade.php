@@ -16,8 +16,10 @@
                         {{ $comic['series']}}
                     </div>
                 </div>
-
             @endforeach
+        </div>
+        <div class="d-flex align-items-center p-3">
+            <button class="button">Load  more</button>
         </div>
     </div>
 </section>
