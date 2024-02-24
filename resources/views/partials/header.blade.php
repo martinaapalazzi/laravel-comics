@@ -2,77 +2,72 @@
     $links = [
         [
             'url' => '/',
-            'label' => 'Home',
+            'label' => 'HOME',
             'active' => true,
         ],
         [
             'url' => '/charachters',
-            'label' => 'charachters',
+            'label' => 'CHARACTERS',
             'active' => true,
         ],
         [
             'url' => '/comics',
-            'label' => 'comics',
+            'label' => 'COMICS',
             'active' => false,
         ],
         [
             'url' => '/movies',
-            'label' => 'movies',
+            'label' => 'MOVIES',
             'active' => false,
         ],
         [
             'url' => '/tv',
-            'label' => 'tv',
+            'label' => 'TV',
             'active' => false,
         ],
         [
             'url' => '/games',
-            'label' => 'games',
+            'label' => 'GAMES',
             'active' => false,
         ],
         [
             'url' => '/collectibles',
-            'label' => 'collectibles',
+            'label' => 'COLLECTIBLES',
             'active' => false,
         ],
         [
             'url' => '/videos',
-            'label' => 'videos',
-            'active' => false,
-        ],
-        [
-            'url' => '/comics',
-            'label' => 'comics',
+            'label' => 'VIDEOS',
             'active' => false,
         ],
         [
             'url' => '/fans',
-            'label' => 'fans',
+            'label' => 'FANS',
             'active' => false,
         ],
         [
             'url' => '/news',
-            'label' => 'news',
+            'label' => 'NEWS',
             'active' => false,
         ],
         [
             'url' => '/shop',
-            'label' => 'shop',
+            'label' => 'SHOP',
             'active' => false,
         ]
     ];
 @endphp
 
 <header>
-    <div class="header-container d-flex">
+    <div class="header-container d-flex align-items-center justify-content-around p-4">
         <div class="img-logo">
             <img src="{{ Vite::asset('public/images/dc-logo.png') }}" alt="logo"> 
         </div>
-        <nav class="d-flex">
-            <ul>
+        <nav>
+            <ul class="d-flex align-items-center text-decoration-none">
             @foreach ($links as $link)
                 <li>
-                    <a href="{{ $link['url'] }}">
+                    <a class="header-links text-decoration-none" href="{{ $link['url'] }}">
                         {{ $link['label'] }}
                     </a>
                 </li>
