@@ -10,10 +10,10 @@
             @foreach($comics as $index => $comic) 
                 <div class="mycard">
                     <div class="img-container">
-                        <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}">
+                        <img src="{{ $comic['thumb'] }}" alt="{{ $comic['series'] }}">
                     </div>
                     <div>
-                        {{ $comic['title']}}
+                        {{ $comic['series']}}
                     </div>
                 </div>
 
