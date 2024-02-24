@@ -54,3 +54,10 @@ img {
     height: 100px;
     overflow: hidden;
 }
+
+/* FOOTER */ 
+
+.colum > ul {
+    text-decoration: none;
+    color: white;
+}
