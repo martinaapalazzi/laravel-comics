@@ -55,6 +55,20 @@ img {
     overflow: hidden;
 }
 
+.container-assets {
+    background-color: #0082F9;
+    height: 100px;
+}
+
+.single-asset {
+    margin-left: 15px;
+}
+
+.img-asset-container {
+    width: 30px;
+    height: 30px;
+}
+
 /* FOOTER */ 
 
 .colum > ul {
