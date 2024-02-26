@@ -17,11 +17,11 @@ Route::get('/', function () {
     $comics = config('comics');
     return view('subpages.home', [
         'comics' => $comics,
-    ]);
+    ])->name('home');
 });
 
 Route::get('/chi-siamo', function () {
     return view('subpages.about');
-});
+})->name('about-us');
 
 // Route::get(PERCORSO CON CUI ARRIVARE ALLA PAGINA, FUNZIONE DI CALLBACK CHE MI CREA LA RISPOSTA DA DARE ALL UTENTE)

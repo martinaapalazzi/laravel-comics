@@ -6,6 +6,11 @@
             'active' => true,
         ],
         [
+            'url' => '/chi-siamo',
+            'label' => 'ABOUT US',
+            'active' => true,
+        ],
+        [
             'url' => '/charachters',
             'label' => 'CHARACTERS',
             'active' => true,
